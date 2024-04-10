@@ -1,0 +1,10 @@
+.rightportion{
+    height: 80vh;
+    background-image: url('car-images/supercars-\(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main img {
+    height: 400px;
+}

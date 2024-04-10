@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talwind Project -01</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <div class=" fixed bg-purple-800 flex justify-around align-middle p-2 items-center w-full z-30 ">
+        <h1 class="md:text-4xl sm:text-2xl font-bold text-white">RideEase</h1>
+        <ul class="hidden px-10 py-4 space-x-11 justify-end md:flex">
+            <li class="font-bold text-white cursor-pointer ">Home</li>
+            <li class="hover:font-bold text-white cursor-pointer ">About</li>
+            <li class="hover:font-bold text-white cursor-pointer ">Catalogue</li>
+            <li class="hover:font-bold text-white cursor-pointer ">Contact Us</li>
+        </ul>
+        <div class="button">
+            <button
+                class="bg-yellow-400 px-4 py-1 rounded-2xl mx-10 my-4 hover:bg-white text-black cursor-pointer hover:tracking-wide">+91
+                9718798158</button>
+        </div>
+    </div>
+    <!-- hero section -->
+    <main class="flex md:flex-row justify-around items-center md:h-screen sm:h-auto p-5 flex-col ">
+        <img src="car-bg-black.gif" alt="car gif" class="w-1/2 md:w-1/3 m-3 h-60">
+        <div class="content">
+            <h1 class="text-3xl py-5 text-purple-600 font-bold">RideEase Rentals" Your Smooth Journey Begins Here"</h1>
+            <p class=" font-mono p-2 leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit id
+                libero deserunt, nisi iure neque quia voluptates, culpa esse porro nemo eum! Quis ex dolorem nihil minus
+                quas deserunt, tempore eveniet totam cupiditate incidunt reprehenderit laborum, sed qui odio error.</p>
+            <button
+                class="bg-yellow-400 font-bold px-4 py-1 rounded-lg hover:bg-transparent hover:border-2 border-black">Contact
+                Now</button>
+        </div>
+    </main>
+    <!-- bran section -->
+    <section class="brand">
+        <div class="textcontent ">
+            <h2 class="text-4xl p-4 font-sans capitalize text-center">We Deal in this Brands Also</h2>
+        </div>
+        <div class="brandslogo flex justify-around items-center p-8 flex-wrap">
+            <img src="CarLogos/tesla-logo.png" alt="tesla"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/bmw-logo.png" alt="bmw"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/ferrari-logo.png" alt="ferrari"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/ford-logo.png" alt="ford"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/kia-logo.webp" alt="kia"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/lamborghini-logo.webp" alt="lamborgini"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/mercedes-benz-logo.webp" alt="mercedes"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/mg-logo.webp" alt="mghector"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+            <img src="CarLogos/nissan-logo.png" alt="nisaan"
+                class="inline w-24 p-2 grayscale hover:grayscale-0 cursor-pointer ">
+        </div>
+    </section>
+    <!-- car list section -->
+    <section class="carslist py-60">
+        <h2 class="text-4xl p-4 font-sans capitalize text-center">Explore All Vehicles</h2>
+        <div class="containercarlist p-4 flex justify-around items-center h-auto flex-wrap">
+
+            <!-- Car List Box Start Here -->
+            <div class="crlist m-3 relative md:w-1/5  sm:w-1/3 border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110  "
+                id="carlist1">
+                <img src="car-images/seltos-exterior.webp" alt="car 1">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Seltos Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+            <div class="crlist m-3 relative md:w-1/5  sm:w-1/3 border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist2">
+                <img src="car-images/nissan-magnite.webp" alt="car 2" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Nisaan Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+            <div class="crlist m-3  relative md:w-1/5  sm:w-1/3 border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist3">
+                <img src="car-images/scorpio-n-exterior-75.webp" alt="car 3" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Scorpio Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+
+            <div class="crlist m-3  relative md:w-1/5  sm:w-1/3  border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist4">
+                <img src="car-images/sonet-exterior-.webp" alt="car 4" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Sonet Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+
+            <div class="crlist m-3  relative md:w-1/5  sm:w-1/3  border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist5">
+                <img src="car-images/range-rover-velar.webp" alt="car 5" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Range Rover Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+
+            <div class="crlist m-3  relative md:w-1/5  sm:w-1/3   border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist6">
+                <img src="car-images/defender-exterior.webp" alt="car 6" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Defender Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+
+            <div class="crlist m-3  relative md:w-1/5  sm:w-1/3 border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist7">
+                <img src="car-images/wrangler-jeep.webp" alt="car 7" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">Jeep Wrangler Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+
+            <div class="crlist m-3  relative md:w-1/5  sm:w-1/3  border-2 border-purple-800 pt-20 pl-3 pr-3 pb-3 hover:scale-110"
+                id="carlist8">
+                <img src="car-images/z4-exterior.webp" alt="car 8" class="">
+                <hr>
+                <span class="pl-3 ">$15000</span>
+                <h3 class="pl-3 text-2xl text-purple-600 font-bold">BMW z4 Car</h3>
+                <div class="rating flex p-3">
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star" class="text-yellow-600"></ion-icon>
+                    <ion-icon name="star-half" class="text-yellow-600"></ion-icon>
+                </div>
+                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                    provident natus molestias, suscipit earum aut!</p>
+            </div>
+            <!-- Car List Box Start ends -->
+        </div>
+    </section>
+    <!-- about car section   -->
+
+    <section class="aboutcar p-3 py-30  flex flex-wrap md:flex-row  sm:flex-col justify-around items-center h-auto">
+        <img src="car-images/Defender-main-img.jpg" alt="defender" class="md:w-1/3 sm:w-10/12 rounded-tl-lg h-96 ">
+
+        <div class="textaboutcar md:w-1/2 sm:w-full">
+            <h3 class="text-3xl font-bold text-purple-600 pb-3 sm:p-5 ">About The Car</h3>
+            <p class="md:leading-10 text-justify sm:leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Tenetur porro odio veritatis dolor assumenda laboriosam ipsum ratione fugit maxime debitis qui vel,
+                beatae hic libero ea. Tempore ex error, quibusdam, fuga nisi molestias quae numquam laboriosam, eveniet
+                quis quisquam ipsum?</p>
+            <div class="features  w-auto flex justify-center items-center gap-2 sm:-ml-0 md:-ml-40 flex-wrap">
+                <div class="feature md:w-1/4 sm:w-1/3 border-2 border-gray-300 p-2 bg-white py-10" id="feature1">
+                    <ion-icon name="star" class="text-purple-600 text-3xl"></ion-icon>
+                    <h3 class="text-2xl font-bold text-purple-600 pb-3">Exclusive</h3>
+                    <p class="text-gray-500 text-sm text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quae, obcaecati rerum. Incidunt eligendi velit corporis vero doloremque cumque iste eaque!
+                    </p>
+                </div>
+
+                <div class="feature md:w-1/4 sm:w-1/3 border-2 border-gray-300 p-2 bg-white py-10" id="feature2">
+                    <ion-icon name="caret-up" class="text-purple-600 text-3xl"></ion-icon>
+                    <h3 class="text-2xl font-bold text-purple-600 pb-3">Update</h3>
+                    <p class="text-gray-500 text-sm text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quae, obcaecati rerum. Incidunt eligendi velit corporis vero doloremque cumque iste eaque!
+                    </p>
+                </div>
+
+                <div class="feature md:w-1/4 sm:w-1/3 border-2 border-gray-300 p-2 bg-white py-10" id="feature3">
+                    <ion-icon name="shield-half-outline" class="text-purple-600 text-3xl"></ion-icon>
+                    <h3 class="text-2xl font-bold text-purple-600 pb-3">Secure</h3>
+                    <p class="text-gray-500 text-sm text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quae, obcaecati rerum. Incidunt eligendi velit corporis vero doloremque cumque iste eaque!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carvideo flex  flex-wrap justify-center items-center p-4 py-40">
+        <div class="leftvideo md:w-1/3 sm:w-10/12 relative ">
+
+            <video src="videos/landrover.mp4" autoplay></video>
+            <ion-icon name="play-circle" class="text-5xl absolute bottom-10 px-3 text-white"></ion-icon>
+        </div>
+        <div
+            class="carvideo-text md:w-1/2 sm:w-10/12  p-4 bg-purple-500 md:h-80 sm:h-96 flex flex-col justify-center items-start">
+            <p class="p-2 text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum magni pariatur
+                aspernatur, corporis, excepturi, unde blanditiis quos cupiditate sunt nemo molestiae molestias ea vero
+                assumenda.</p>
+
+            <li class="list-none leading-10 text-white"><ion-icon name="checkmark-circle"
+                    class="text-white mr-2"></ion-icon>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+                explicabo.</li>
+            <li class="list-none leading-10 text-white"><ion-icon name="checkmark-circle"
+                    class="text-white mr-2"></ion-icon>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+                explicabo.</li>
+            <li class="list-none leading-10 text-white"><ion-icon name="checkmark-circle"
+                    class="text-white mr-2"></ion-icon>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
+                explicabo.</li>
+            <button class="px-5 py-3 bg-white text-black leading-3 m-3">Get Started</button>
+        </div>
+    </section>
+    <section class="cardeals h-auto">
+        <h2 class="text-4xl text-purple-600 text-center font-bold">Top heal of the week</h2>
+        <p class="md:w-1/2 sm:w-10/12 mx-auto text-gray-400 pt-3 sm:pl-4 md:pl-0">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Praesentium nihil dolore asperiores quas ipsum excepturi labore, odio reprehenderit
+            blanditiis facere!</p>
+        <div
+            class="dealcontainer flex flex-wrap sm:flex-col md:flex-row justify-around m-2 items-center py-40  md:gap-0 sm:gap-2">
+
+            <!-- car deal box  -->
+            <div class="cardealbox md:w-1/5 w-10/12 h-96 relative" id="cardeal1">
+                <img src="car-images/luxurycar-(1).jpg" alt="luxurycars"
+                    class="absolute inset-0 w-full h-full object-cover -z-10">
+                <div
+                    class="textdeal bottom-3 text-white p-4 bg-black bg-opacity-50 flex flex-col justify-end inset-0 w-full h-full items-start">
+                    <h3 class="text-2xl font-bold pb-3">Car 1</h3>
+                    <button class="text-start px-6 py-2 bg-purple-700 bg-opacity-30 font-bold">$8000</button>
+                </div>
+            </div><!-- Car Deal Box Ends-->
+            <div class="cardealbox md:w-1/5  w-10/12 h-96 relative" id="cardeal2">
+                <img src="car-images/luxurycar-(2).jpg" alt="luxurycars"
+                    class="absolute inset-0 w-full h-full object-cover -z-10">
+                <div
+                    class="textdeal bottom-3 text-white p-4 bg-black bg-opacity-50 flex flex-col justify-end inset-0 w-full h-full items-start">
+                    <h3 class="text-2xl font-bold pb-3">Car 3</h3>
+                    <button class="text-start px-6 py-2 bg-purple-700 bg-opacity-30 font-bold">$5000</button>
+                </div>
+            </div><!-- Car Deal Box Ends-->
+
+            <div class="cardealbox md:w-1/5 w-10/12 h-96 relative" id="cardeal3">
+                <img src="car-images/luxurycar-(3).jpg" alt="luxurycars"
+                    class="absolute inset-0 w-full h-full object-cover -z-10">
+                <div
+                    class="textdeal bottom-3 text-white p-4 bg-black bg-opacity-50 flex flex-col justify-end inset-0 w-full h-full items-start">
+                    <h3 class="text-2xl font-bold pb-3">Car 3</h3>
+                    <button class="text-start px-6 py-2 bg-purple-700 bg-opacity-30 font-bold">$10000</button>
+                </div>
+            </div><!-- Car Deal Box Ends-->
+
+            <div class="cardealbox md:w-1/5 w-10/12 h-96 relative " id="cardeal4">
+                <img src="car-images/luxurycar-(4).jpg" alt="luxurycars"
+                    class="absolute inset-0 w-full h-full object-cover -z-10">
+                <div
+                    class="textdeal bottom-3 text-white p-4 bg-black bg-opacity-50 flex flex-col justify-end inset-0 w-full h-full items-start">
+                    <h3 class="text-2xl font-bold pb-3">Car 4</h3>
+                    <button class="text-start px-6 py-2 bg-purple-700 bg-opacity-30 font-bold">$28000</button>
+                </div>
+            </div><!-- Car Deal Box Ends-->
+        </div>
+    </section>
+
+    <section
+        class="customerreview bg-purple-500 md:mx-auto sm:mx-0 md:w-10/12 sm:w-full py-40 relative flex flex-wrap justify-around items-center text-white sm:px-4 w-full">
+
+        <img src="customer-review/review-1.jpg" alt="review" class="md:w-1/3 sm:w-1/2 md:m-4 sm:m-0 w-4/5">
+        <div class="rightreview md:w-1/2 sm:w-10/12 sm:p-4 md:p-0 p-4">
+            <h2 class="md:text-3xl uppercase font-bold pb-3 sm:text-2xl ">What our Customer Says</h2>
+            <p class="pb-3 leading-8 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
+                tempore facilis nemo omnis optio nostrum dolores blanditiis? Nihil nesciunt provident quia. Praesentium
+                recusandae quidem vel repellendus fuga, temporibus maxime eveniet tempora minima quas nisi, a fugit
+                magnam iusto unde!</p>
+            <span class="text-2xl pb-3">Kevin Martin</span>
+            <h3 class="pb-3">Developer</h3>
+            <ion-icon name="star" class="text-yellow-600 text-xl"></ion-icon>
+            <ion-icon name="star" class="text-yellow-600 text-xl"></ion-icon>
+            <ion-icon name="star" class="text-yellow-600 text-xl"></ion-icon>
+            <ion-icon name="star" class="text-yellow-600 text-xl"></ion-icon>
+            <ion-icon name="star" class="text-yellow-600 text-xl"></ion-icon>
+            <span class="text-gray-300">(4.7 review)</span>
+        </div>
+    </section>
+
+
+    <section class="questionask flex flex-wrap justify-around items-center py-40">
+        <div class="leftquestion">
+            <h2 class="md:text-4xl sm:text-3xl font-bold pb-3 text-purple-500">Have Any Questions About Us ?</h2>
+            <button
+                class="px-7 py-2 text-white bg-purple-600 hover:bg-transparent hover:text-purple-600 border-2 border-transparent hover:border-purple-600 duration-300">+919718798158</button>
+            <button
+                class="px-7 py-2  text-purple-600 border-2 border-purple-600 hover:bg-purple-600 hover:text-white duration-300">Email
+                Us</button>
+        </div>
+        <div class="rightportion md:w-1/2 sm:w-10/12 w-10/12 bg-cover bg-center  my-20">
+        </div>
+    </section>
+
+    <footer class="flex flex-wrap justify-around items-start h-auto py-40 ">
+        <div class="sec1 md:flex sm:flex-col justify-around items-start md:w-1/4 w-10/12 p-2">
+            <div class="logofoot flex justify-around text-2xl text-purple-500 font-bold p-2">
+                <ion-icon name="speedometer" class="pr-3"></ion-icon>
+                <h2>RideEase</h2>
+            </div>
+            <div class="textsec1 p-3 leading-8 text-justify">
+                <h3 class="text-2xl pb-4 font-bold">Best Car Dealing Platform</h3>
+                <p class=" text-gray-600 pb-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quae,
+                    aspernatur eveniet ut quo molestiae omnis, qui nobis adipisci inventore facere aliquid velit placeat
+                    excepturi quibusdam natus architecto? Voluptates, quidem.</p>
+                <div class="socialicon gap-2 text-xl text-gray-600">
+                    <ion-icon name="logo-youtube" class="cursor-pointer hover:text-purple-500 duration-100"></ion-icon>
+                    <ion-icon name="logo-facebook" class="cursor-pointer hover:text-purple-500 duration-100"></ion-icon>
+                    <ion-icon name="logo-instagram"
+                        class="cursor-pointer hover:text-purple-500 duration-100"></ion-icon>
+                    <ion-icon name="logo-linkedin" class="cursor-pointer hover:text-purple-500 duration-100"></ion-icon>
+                    <ion-icon name="logo-twitter" class="cursor-pointer hover:text-purple-500 duration-100"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div id="sec2 " class=" flex flex-col items-start md:w-1/4 w-10/12">
+            <h3 class="text-2xl text-purple-500 font-bold p-2">Quick Links</h3>
+            <li class="list-none text-gray-400 leading-8">About Us</li>
+            <li class="list-none text-gray-400 leading-8">Contact Us</li>
+            <li class="list-none text-gray-400 leading-8">Service</li>
+            <li class="list-none text-gray-400 leading-8">Login</li>
+            <li class="list-none text-gray-400 leading-8">Sign Up</li>
+        </div>
+
+        <div id="sec3" class=" flex flex-col items-start md:w-1/4 w-10/12">
+            <h3 class="text-2xl text-purple-500 font-bold p-2">Support</h3>
+            <li class="list-none text-gray-400 leading-8">Affiliates</li>
+            <li class="list-none text-gray-400 leading-8">sitemap</li>
+            <li class="list-none text-gray-400 leading-8">Privacy Policy</li>
+            <li class="list-none text-gray-400 leading-8">Cancelation Policy</li>
+            <li class="list-none text-gray-400 leading-8">Legal Disclaimer</li>
+        </div>
+
+        <div id="sec4" class=" flex flex-col items-start md:w-1/4 w-10/12">
+            <h3 class="text-2xl text-purple-500 font-bold p-2">Contact</h3>
+            <li class="list-none text-gray-400 leading-8">123 highfiled Road London N36</li>
+            <li class="list-none text-gray-400 leading-8">+91-9718798158</li>
+            <li class="list-none text-gray-400 leading-8">info@RideEase.com</li>
+            <li class="list-none py-2"></li>
+            <li class="list-none py-2"></li>
+            <li class="list-none py-2"></li>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
